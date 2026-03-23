@@ -1,48 +1,99 @@
----
-
 ## 2. Range Optimization
 
-### 🎯 Goal
-
-We want to maximize:
-
-R(θ) = (v₀² sin(2θ)) / g
+We study projectile motion and want to understand how to maximize the horizontal range.
 
 ---
 
-## 🧠 Why does angle matter?
+## 🎯 What is range?
 
-Because:
-- sin(2θ) controls range
-- v₀ and g are constants
-
-So optimization depends only on sin(2θ)
+Range is the total horizontal distance a projectile travels before hitting the ground.
 
 ---
 
-## 📌 Step 1: Maximize sine function
+## 🧠 Key idea
 
-We know:
-- Maximum value of sine is 1
+The range depends on:
+- initial speed (v₀)
+- launch angle (θ)
+- gravity (g)
 
-So:
+We assume:
+- no air resistance
+- constant gravitational acceleration
+
+---
+
+## 📌 Step 1: Range formula
+
+The range of a projectile is given by:
+
+R(θ) = (v₀² × sin(2θ)) / g
+
+---
+
+## 🧠 Why does sin(2θ) appear?
+
+This happens because:
+
+- horizontal motion depends on cos(θ)
+- vertical motion depends on sin(θ)
+
+When combining both effects mathematically, the result becomes sin(2θ).
+
+---
+
+## 📌 Step 2: What do we maximize?
+
+We notice:
+
+- v₀² is constant
+- g is constant
+
+So only this part matters:
+
+sin(2θ)
+
+---
+
+## 🧠 Important property of sine
+
+The sine function has a maximum value of:
+
+1
+
+So we ask:
+
+When is sin(2θ) = 1?
+
+---
+
+## 📌 Step 3: Solve condition
 
 sin(2θ) = 1
 
----
-
-## 📌 Step 2: Solve angle
+This happens when:
 
 2θ = 90°
 
+---
+
+## 📌 Step 4: Final angle
+
 θ = 45°
 
 ---
 
-## 📌 Final conclusion
+## 🎯 Final conclusion
 
-Maximum range occurs at:
+The projectile reaches maximum range when:
 
 θ = 45°
 
 ---
+
+## 🧠 Physical meaning
+
+This is because:
+- too small angle → not enough height
+- too large angle → not enough horizontal distance
+- 45° balances both perfectly
