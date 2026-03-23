@@ -6,67 +6,117 @@ v(t) = t^2 + 2t − 5
 
 ---
 
-## 📌 Key idea
+## 📌 Step 1: Position (Integration)
 
-- Velocity gives position change over time
-- To get position, we integrate velocity
-- To get acceleration, we differentiate velocity
+We integrate velocity because position is accumulated motion over time.
 
----
+∫ v(t) dt = ∫ (t^2 + 2t − 5) dt
 
-## 📊 Step-by-step summary
+Now integrate term by term:
 
-| Quantity        | Operation            | Formula Result                          |
-|----------------|---------------------|------------------------------------------|
-| Velocity v(t)   | Given               | t^2 + 2t − 5                            |
-| Position x(t)   | Integration         | (1/3)t^3 + t^2 − 5t + C                |
-| Initial value   | x(0) = 4            | C = 4                                   |
-| Final position  | Substitute t = 3    | x(3) = 7                                |
-| Acceleration a(t)| Derivative of v(t) | 2t + 2                                  |
-| Acceleration at t=3 | Substitute       | a(3) = 8                                |
+- ∫ t^2 dt = (1/3)t^3
+- ∫ 2t dt = t^2
+- ∫ −5 dt = −5t
 
----
-
-## 🧠 Step-by-step explanation
-
-### 1. Position function
-
-We integrate velocity because:
-
-👉 position is the accumulation of velocity over time
-
-x(t) = ∫(t^2 + 2t − 5) dt
+So:
 
 x(t) = (1/3)t^3 + t^2 − 5t + C
 
 ---
 
-### 2. Find constant C
+## 📌 Step 2: Initial condition
 
-We use initial condition:
+We are given:
 
 x(0) = 4
+
+Substitute:
+
+x(0) = 0 + 0 − 0 + C = 4
 
 So:
 
 C = 4
 
+Final position function:
+
+x(t) = (1/3)t^3 + t^2 − 5t + 4
+
 ---
 
-### 3. Final position at t = 3
+## 📌 Step 3: Position at t = 3
 
-x(3) = (1/3)(27) + 9 − 15 + 4  
-x(3) = 9 + 9 − 15 + 4  
+Compute step by step:
+
+- (1/3) * 3^3 = (1/3) * 27 = 9
+- 3^2 = 9
+- −5 * 3 = −15
+
+So:
+
+x(3) = 9 + 9 − 15 + 4
+
 x(3) = 7
 
 ---
 
-### 4. Acceleration
+## 📌 Step 4: Acceleration
 
-We differentiate velocity:
+Acceleration is derivative of velocity:
 
-a(t) = dv/dt = 2t + 2
+v(t) = t^2 + 2t − 5
+
+a(t) = 2t + 2
 
 At t = 3:
 
-a(3) = 8
+a(3) = 2(3) + 2 = 8
+
+---
+
+# 📊 GRAPHICAL INTERPRETATION
+
+## 1. ASCII sketch (position growth idea)
+
+Position x(t) behaves like a cubic curve:
+
+t →
+|
+|        *
+|      *
+|    *
+|  *
+| *
+|____________________
+
+(Non-linear growth due to t^3 term)
+
+---
+
+## 2. Python graph (recommended for real plot)
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+t = np.linspace(0, 5, 100)
+
+x = (1/3)*t**3 + t**2 - 5*t + 4
+v = t**2 + 2*t - 5
+a = 2*t + 2
+
+plt.plot(t, x, label="Position x(t)")
+plt.plot(t, v, label="Velocity v(t)")
+plt.plot(t, a, label="Acceleration a(t)")
+
+plt.title("Motion Analysis")
+plt.legend()
+plt.grid()
+plt.show()
+
+---
+
+## 📌 Key insight
+
+- Position grows non-linearly (cubic)
+- Velocity is quadratic
+- Acceleration is linear
