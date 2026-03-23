@@ -1,22 +1,20 @@
----
-
 ## 4. Vector Calculus
 
 Given:
 
-r(t) = (3t²)i + (5t − 8t²)j
+r(t) = (3t^2)i + (5t − 8t^2)j
 
 ---
 
-## 🧠 Why differentiate?
+Why differentiate?
 
-Because:
-- velocity = rate of change of position
-- acceleration = rate of change of velocity
+We differentiate because:
+- velocity is change of position over time
+- acceleration is change of velocity over time
 
 ---
 
-## 📌 Velocity
+Velocity:
 
 v(t) = dr/dt
 
@@ -24,7 +22,7 @@ v(t) = (6t)i + (5 − 16t)j
 
 ---
 
-## 📌 Acceleration
+Acceleration:
 
 a(t) = dv/dt
 
@@ -32,9 +30,8 @@ a(t) = (6)i + (−16)j
 
 ---
 
-## 📌 Interpretation
-
+Interpretation:
 - acceleration is constant
-- motion is non-uniform
+- motion is not uniform
 
 ---
