@@ -6,73 +6,109 @@ v(t) = t^2 + 2t − 5
 
 ---
 
-## 📊 Summary Table
+## 📊 Summary Table (Render Safe)
 
-| Quantity        | Expression                          | Result |
-|----------------|--------------------------------------|--------|
-| Velocity       | v(t) = t^2 + 2t − 5                | Given |
-| Position       | ∫ v(t) dt                          | (1/3)t^3 + t^2 − 5t + C |
-| Initial value  | x(0) = 4                            | C = 4 |
-| Position at t=3| x(3)                               | 7 |
-| Acceleration   | dv/dt                              | 2t + 2 |
-| Acceleration t=3 | a(3)                             | 8 |
+| Quantity        | Expression (safe format)        | Result |
+|----------------|----------------------------------|--------|
+| Velocity       | v(t) = t^2 + 2t - 5            | Given |
+| Position       | integral of v(t)                | (1/3)t^3 + t^2 - 5t + C |
+| Initial value  | x(0) = 4                        | C = 4 |
+| Position t=3   | substitute t = 3                | 7 |
+| Acceleration   | derivative of v(t)              | 2t + 2 |
+| Acceleration t=3 | substitute t = 3              | 8 |
 
 ---
 
 ## 🧠 Step-by-step explanation
 
-### 1. Position from velocity
+### 1. Why integration?
 
-We integrate because:
+Position is obtained by adding all small changes in velocity:
 
-👉 position = total accumulated motion
+→ so we use integration
 
-x(t) = ∫ (t^2 + 2t − 5) dt
-
-x(t) = (1/3)t^3 + t^2 − 5t + C
+x(t) = integral of (t^2 + 2t - 5)
 
 ---
 
-### 2. Initial condition
+### 2. Integration result
 
-x(0) = 4 → C = 4
+We integrate term by term:
+
+t^2   → (1/3)t^3  
+2t    → t^2  
+-5    → -5t  
 
 So:
 
-x(t) = (1/3)t^3 + t^2 − 5t + 4
+x(t) = (1/3)t^3 + t^2 - 5t + C
 
 ---
 
-### 3. Evaluate at t = 3
+### 3. Initial condition
 
-| Step | Calculation |
-|------|-------------|
-| (1/3)t^3 | (1/3)·27 = 9 |
-| t^2 | 9 |
-| −5t | −15 |
-| Constant | +4 |
-| **Total** | **7** |
+x(0) = 4
+
+So constant:
+
+C = 4
+
+Final:
+
+x(t) = (1/3)t^3 + t^2 - 5t + 4
 
 ---
 
-### 4. Acceleration
+### 4. Evaluate at t = 3
 
-a(t) = dv/dt = 2t + 2
+Step table:
+
+- t^3 = 27 → (1/3)*27 = 9
+- t^2 = 9
+- -5t = -15
+- +4 = +4
+
+Total:
+
+x(3) = 9 + 9 - 15 + 4 = 7
+
+---
+
+### 5. Acceleration
+
+Acceleration is derivative of velocity:
+
+v(t) = t^2 + 2t - 5
+
+So:
+
+a(t) = 2t + 2
 
 At t = 3:
 
-a(3) = 8
+a(3) = 2*3 + 2 = 8
 
 ---
 
-## 📈 Plot (VS Code compatible)
+## 📈 Plot section (safe Markdown)
 
-![Velocity & Acceleration Plot](velocity_acceleration_plots.png)
+![Velocity vs Acceleration](velocity_acceleration_plots.png)
 
 ---
 
-## 📌 Interpretation
+## ⚠️ Why this version will NOT break
 
-- Position → cubic curve (grows faster over time)
-- Velocity → quadratic curve
-- Acceleration → linear function
+✔ No LaTeX `$...$`  
+✔ No risky `\cdot`  
+✔ No `×` symbol  
+✔ No YAML triggers  
+✔ No markdown parsing conflicts  
+✔ Only plain math text + safe powers (`t^2`)
+
+---
+
+## 📌 Key insight
+
+- Velocity → quadratic growth  
+- Position → cubic growth  
+- Acceleration → linear growth  
