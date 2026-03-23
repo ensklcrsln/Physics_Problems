@@ -1,12 +1,48 @@
 ---
 
-## 2. Systems of Equations
-Find $x$ and $y$ for:
-1) $2x + 3y = 12$
-2) $x - y = 1 \implies x = y + 1$
+## 2. Range Optimization
 
-**Substitution:**
-$2(y + 1) + 3y = 12 \implies 2y + 2 + 3y = 12 \implies 5y = 10 \implies \mathbf{y = 2}$
-**Result:** $x = 2 + 1 = \mathbf{3}$
+### 🎯 Goal
+
+We want to maximize:
+
+R(θ) = (v₀² sin(2θ)) / g
+
+---
+
+## 🧠 Why does angle matter?
+
+Because:
+- sin(2θ) controls range
+- v₀ and g are constants
+
+So optimization depends only on sin(2θ)
+
+---
+
+## 📌 Step 1: Maximize sine function
+
+We know:
+- Maximum value of sine is 1
+
+So:
+
+sin(2θ) = 1
+
+---
+
+## 📌 Step 2: Solve angle
+
+2θ = 90°
+
+θ = 45°
+
+---
+
+## 📌 Final conclusion
+
+Maximum range occurs at:
+
+θ = 45°
 
 ---
