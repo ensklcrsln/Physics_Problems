@@ -1,117 +1,72 @@
-# Problem 6: Variable Velocity
+## 6. Variable Velocity
 
-We are given the velocity function $v(t)=t^2+2t-5$ and the initial position $x(0)=4$.
+Given velocity function:
 
-We want:
-
-1. The position at $t=3$, i.e. $x(3)$.
-2. The acceleration at $t=3$, i.e. $a(3)$.
+v(t) = t^2 + 2t − 5
 
 ---
 
-## 1) Position from velocity theory
+## 📌 Key idea
 
-Velocity is the derivative of position:
+- Velocity gives position change over time
+- To get position, we integrate velocity
+- To get acceleration, we differentiate velocity
 
-$$
-v(t)=\frac{dx}{dt}
-$$
+---
+
+## 📊 Step-by-step summary
+
+| Quantity        | Operation            | Formula Result                          |
+|----------------|---------------------|------------------------------------------|
+| Velocity v(t)   | Given               | t^2 + 2t − 5                            |
+| Position x(t)   | Integration         | (1/3)t^3 + t^2 − 5t + C                |
+| Initial value   | x(0) = 4            | C = 4                                   |
+| Final position  | Substitute t = 3    | x(3) = 7                                |
+| Acceleration a(t)| Derivative of v(t) | 2t + 2                                  |
+| Acceleration at t=3 | Substitute       | a(3) = 8                                |
+
+---
+
+## 🧠 Step-by-step explanation
+
+### 1. Position function
+
+We integrate velocity because:
+
+👉 position is the accumulation of velocity over time
+
+x(t) = ∫(t^2 + 2t − 5) dt
+
+x(t) = (1/3)t^3 + t^2 − 5t + C
+
+---
+
+### 2. Find constant C
+
+We use initial condition:
+
+x(0) = 4
 
 So:
 
-$$
-\frac{dx}{dt}=t^2+2t-5
-$$
-
-Integrate both sides with respect to $t$:
-
-$$
-x(t)=\int (t^2+2t-5)\,dt
-$$
-
-Compute the integral term-by-term:
-
-$$
-\int t^2\,dt=\frac{t^3}{3},\qquad
-\int 2t\,dt=t^2,\qquad
-\int (-5)\,dt=-5t
-$$
-
-So the general position function is:
-
-$$
-x(t)=\frac{t^3}{3}+t^2-5t+C
-$$
-
-Use the initial condition $x(0)=4$:
-
-$$
-x(0)=\frac{0^3}{3}+0^2-5\cdot 0 + C = C = 4
-$$
-
-Therefore:
-
-$$
-x(t)=\frac{t^3}{3}+t^2-5t+4
-$$
-
-Now evaluate at $t=3$:
-
-$$
-x(3)=\frac{3^3}{3}+3^2-5\cdot 3+4
-=\frac{27}{3}+9-15+4
-=9+9-15+4
-$$
-
-Compute:
-$$
-9+9=18,\qquad 18-15=3,\qquad 3+4=7
-$$
-
-So:
-
-$$
-x(3)=7
-$$
+C = 4
 
 ---
 
-## 2) Acceleration from velocity
+### 3. Final position at t = 3
 
-Acceleration is the derivative of velocity:
-
-$$
-a(t)=\frac{dv}{dt}
-$$
-
-Differentiate:
-
-$$
-v(t)=t^2+2t-5
-\quad\Rightarrow\quad
-a(t)=2t+2
-$$
-
-Evaluate at $t=3$:
-
-$$
-a(3)=2\cdot 3 + 2 = 8
-$$
+x(3) = (1/3)(27) + 9 − 15 + 4  
+x(3) = 9 + 9 − 15 + 4  
+x(3) = 7
 
 ---
 
-## Final answers
+### 4. Acceleration
 
-$$
-x(3)=7
-$$
+We differentiate velocity:
 
-$$
-a(3)=8
-$$
+a(t) = dv/dt = 2t + 2
 
----
+At t = 3:
 
-## Plot the velocity and acceleration
-
-![Velocity and Acceleration Plots](velocity_acceleration_plots.png)
+a(3) = 8
