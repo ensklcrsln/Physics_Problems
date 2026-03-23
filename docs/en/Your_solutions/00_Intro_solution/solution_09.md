@@ -1,62 +1,56 @@
----
-
 ## 9. Optimization
 
-Maximize:
+We want to maximize the area:
 
-$$
-A = xy
-$$
+A = x * y
 
-Given:
+Given the constraint:
 
-$$
 y = 3 - x^2
-$$
 
-### Step 1: Express as single variable
+### Step 1: Express area as a function of x
 
-$$
+Substitute y into the area formula:
+
 A(x) = x(3 - x^2)
-$$
 
-$$
 A(x) = 3x - x^3
-$$
 
-### Step 2: First derivative
+### Step 2: Find the derivative
 
-$$
 A'(x) = 3 - 3x^2
-$$
 
-### Step 3: Critical point
+### Step 3: Find critical points
 
-$$
+Set the derivative equal to zero:
+
 3 - 3x^2 = 0
-$$
 
-$$
-x^2 = 1 \Rightarrow x = 1
-$$
+3x^2 = 3
 
-(Positive value is used for dimensions.)
+x^2 = 1
 
-### Step 4: Find $y$
+x = 1
 
-$$
-y = 3 - 1^2 = 2
-$$
+(We take the positive value since dimensions must be positive.)
 
-### Step 5: Maximum area
+### Step 4: Find y
 
-$$
-A = 1 \cdot 2 = 2
-$$
+y = 3 - x^2
+
+y = 3 - 1 = 2
+
+### Step 5: Compute maximum area
+
+A = x * y
+
+A = 1 * 2 = 2
 
 ### Result
 
-- Dimensions: $x = 1$, $y = 2$
-- Maximum area: $A = 2$
+Maximum area = 2
 
----
+Dimensions:
+
+x = 1  
+y = 2
