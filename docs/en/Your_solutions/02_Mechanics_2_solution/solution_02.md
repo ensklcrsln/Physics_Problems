@@ -1,70 +1,44 @@
-# 2. Harmonic Motion
+## 2. Harmonic Motion
 
-## Problem
+Given:
 
-x(t) = 0.2 cos(10πt), m = 10 kg
+$$
+x(t) = 0.2 \cos(10\pi t)
+$$
 
-Find:
-- Spring constant k
-- Total energy
+### Step 1: Angular Frequency
 
----
-
-## Solution
-
-### Step 1: Identify SHM form
-
-General form:
-
-x(t) = A cos(ωt)
-
-So:
-
-A = 0.2 m  
-ω = 10π rad/s  
+$$
+\omega = 10\pi
+$$
 
 ---
 
-### Step 2: Spring constant
+### Step 2: Spring Constant
 
-Formula:
+$$
+\omega = \sqrt{\frac{k}{m}}
+$$
 
-k = mω²
+$$
+k = m\omega^2
+$$
 
-Compute:
-
-ω² = (10π)² = 100π²
-
-k = 10 × 100π² = 1000π²
-
-π² ≈ 9.87
-
-k ≈ 9869 N/m
+$$
+k = 10 \cdot (10\pi)^2 = 1000\pi^2 \approx 9870 \text{ N/m}
+$$
 
 ---
 
-### Interpretation
+### Step 3: Total Energy
 
-Higher frequency means stronger restoring force → stiffer spring.
+$$
+E = \frac{1}{2}kA^2
+$$
 
----
+$$
+E = \frac{1}{2} \cdot 1000\pi^2 \cdot (0.2)^2 = 20\pi^2 \approx 197 \text{ J}
+$$
 
-### Step 3: Energy
-
-Formula:
-
-E = (1/2)kA²
-
-Substitute:
-
-A² = 0.04
-
-E = 0.5 × 9869 × 0.04
-
-E ≈ 197 J
-
----
-
-### Interpretation
-
-Energy stays constant during oscillation.
+**Explanation:**
+Energy depends on amplitude and remains constant in ideal SHM.
