@@ -1,99 +1,82 @@
 ## 2. Range Optimization
 
-We study projectile motion and want to understand how to maximize the horizontal range.
+### Given:
+
+- Projectile motion with initial speed $v_0$  
+- Gravitational acceleration $g$  
+- Launch angle $\theta$  
+- Range formula: $R(\theta) = \frac{v_0^2 \sin(2\theta)}{g}$  
 
 ---
 
-## 🎯 What is range?
+### Step 1: Find derivative of range with respect to angle
 
-Range is the total horizontal distance a projectile travels before hitting the ground.
+To maximize range, take derivative of $R(\theta)$ with respect to $\theta$:
 
----
+$$
+\frac{dR}{d\theta} = \frac{v_0^2}{g} \cdot 2 \cos(2\theta) = \frac{2 v_0^2 \cos(2\theta)}{g}
+$$
 
-## 🧠 Key idea
+Set derivative equal to zero for maximum:
 
-The range depends on:
-- initial speed (v₀)
-- launch angle (θ)
-- gravity (g)
+$$
+2 \frac{v_0^2}{g} \cos(2\theta) = 0
+$$
 
-We assume:
-- no air resistance
-- constant gravitational acceleration
-
----
-
-## 📌 Step 1: Range formula
-
-The range of a projectile is given by:
-
-R(θ) = (v₀² × sin(2θ)) / g
+$$
+\cos(2\theta) = 0
+$$
 
 ---
 
-## 🧠 Why does sin(2θ) appear?
+### Step 2: Solve for optimal angle
 
-This happens because:
-
-- horizontal motion depends on cos(θ)
-- vertical motion depends on sin(θ)
-
-When combining both effects mathematically, the result becomes sin(2θ).
+$$
+2\theta = 90^\circ \quad \Rightarrow \quad \theta = 45^\circ
+$$
 
 ---
 
-## 📌 Step 2: What do we maximize?
+### Step 3: Confirm maximum
 
-We notice:
+Second derivative test:
 
-- v₀² is constant
-- g is constant
+$$
+\frac{d^2R}{d\theta^2} = -\frac{4 v_0^2 \sin(2\theta)}{g}
+$$
 
-So only this part matters:
+At $\theta = 45^\circ$:
 
-sin(2θ)
+$$
+\frac{d^2R}{d\theta^2} = -\frac{4 v_0^2}{g} < 0
+$$
 
----
-
-## 🧠 Important property of sine
-
-The sine function has a maximum value of:
-
-1
-
-So we ask:
-
-When is sin(2θ) = 1?
+This confirms a maximum.  
 
 ---
 
-## 📌 Step 3: Solve condition
+### Explanation:
 
-sin(2θ) = 1
-
-This happens when:
-
-2θ = 90°
+- Maximum range occurs when derivative of range with respect to angle is zero.  
+- Solving $\cos(2\theta) = 0$ gives $\theta = 45^\circ$.  
+- Second derivative is negative, confirming a maximum.  
 
 ---
 
-## 📌 Step 4: Final angle
+### Formula 1: Range of projectile
 
-θ = 45°
+$$
+R(\theta) = \frac{v_0^2 \sin(2\theta)}{g}
+$$
 
----
+### Formula 2: Derivative for maximum
 
-## 🎯 Final conclusion
+$$
+\frac{dR}{d\theta} = 0 \quad \Rightarrow \quad \cos(2\theta) = 0
+$$
 
-The projectile reaches maximum range when:
+### Formula 3: Second derivative test
 
-θ = 45°
-
----
-
-## 🧠 Physical meaning
-
-This is because:
-- too small angle → not enough height
-- too large angle → not enough horizontal distance
-- 45° balances both perfectly
+$$
+\frac{d^2R}{d\theta^2} < 0 \text{ confirms maximum}
+$$
