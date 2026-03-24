@@ -43,3 +43,19 @@ $$
 - First, gravitational potential energy converts into kinetic energy.
 - Then during collision, momentum is conserved.
 - Since the blocks stick together, this is an inelastic collision.
+
+## 4. Energy & Momentum
+
+### Formula 1: Energy Conversion
+
+$$
+mgh = \frac{1}{2}mv^2
+$$
+
+---
+
+### Formula 2: Conservation of Linear Momentum
+
+$$
+m_1 v_1 = (m_1 + m_2)v_f
+$$
