@@ -1,47 +1,39 @@
-# 9. Momentum Comparison
+## 9. Momentum Comparison
 
-Formula:
+### Given:
 
-p = m × v
-
----
-
-## 📊 Summary Table
-
-| Object | Mass | Velocity | Momentum |
-|--------|------|----------|----------|
-| Fly | 0.002 kg | 10 m/s | 0.02 |
-| Tennis ball | 0.06 kg | 1 m/s | 0.06 |
+- Fly: mass = 2 g, speed = 10 m/s  
+- Tennis ball: mass = 60 g, speed = 1 m/s  
 
 ---
 
-## 🧠 Step-by-step explanation
+### Step 1: Convert mass
 
-### 1. Fly
-
-p = 0.002 × 10 = 0.02
-
----
-
-### 2. Tennis ball
-
-p = 0.06 × 1 = 0.06
+- Fly: 0.002 kg  
+- Ball: 0.06 kg  
 
 ---
 
-### 3. Comparison
+### Step 2: Momentum
 
-0.06 > 0.02
+$$
+p_{fly} = 0.002 \cdot 10 = 0.02
+$$
+
+$$
+p_{ball} = 0.06 \cdot 1 = 0.06
+$$
 
 ---
 
-## ✅ Final Answer
+### Step 3: Comparison
 
-Tennis ball has greater momentum.
+- Tennis ball has larger momentum.  
 
 ---
 
-## 📌 Key insight
+### Formula: Momentum
 
-- Momentum depends on BOTH mass and velocity  
-- Mass dominates in this case
+$$
+p = m v
+$$
