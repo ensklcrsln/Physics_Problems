@@ -9,28 +9,30 @@
 
 ---
 
-## 🧠 Explanation
+## 🧠 Solution
 
-Given:
+The motion is given as:
 
 x(t) = 0.2 cos(10πt)
 
-Compare with:
+This is a simple harmonic motion where:
 
-x = A cos(ωt)
-
-So:
-
-- Amplitude A = 0.2  
-- Angular frequency ω = 10π  
+- 0.2 is the amplitude  
+- 10π is the angular frequency  
 
 ---
 
 ### Spring constant
 
+We use:
+
 k = mω²
 
-➡ Higher frequency → stiffer spring
+This works because the spring force depends on how fast the system oscillates.
+
+k = 10 × (10π)² ≈ 9869 N/m
+
+👉 A higher frequency means a stiffer spring.
 
 ---
 
@@ -38,5 +40,8 @@ k = mω²
 
 E = (1/2)kA²
 
-➡ Energy is constant in SHM  
-➡ Depends only on amplitude
+This formula shows that energy depends only on amplitude.
+
+E ≈ 197 J
+
+👉 Energy stays constant during oscillation.
