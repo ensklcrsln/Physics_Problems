@@ -2,44 +2,56 @@
 
 ### (a) Period on the Moon
 
-The period of a simple pendulum is given by:
+The period of a simple pendulum is:
 
-T = 2π * sqrt(L / g)
+$$
+T = 2\pi \sqrt{\frac{L}{g}}
+$$
 
-This shows that the period depends on gravity. Specifically:
+This shows that:
 
-T ∝ 1 / sqrt(g)
-
-So if gravity decreases, the period increases.
+$$
+T \propto \frac{1}{\sqrt{g}}
+$$
 
 On the Moon:
 
-g_moon = g_earth / 6
+$$
+g_{moon} = \frac{g_{earth}}{6}
+$$
 
-T_moon = T_earth * sqrt(g_earth / g_moon)
+$$
+T_{moon} = T_{earth} \sqrt{\frac{g_{earth}}{g_{moon}}}
+$$
 
-T_moon = 4 * sqrt(6)
+$$
+T_{moon} = 4 \cdot \sqrt{6}
+$$
 
-T_moon ≈ 4 * 2.45 = 9.8 s
+$$
+T_{moon} \approx 9.8 \text{ s}
+$$
 
 **Explanation:**
-Gravity provides the restoring force in a pendulum. On the Moon, gravity is weaker, so the restoring force is smaller. This causes the pendulum to swing more slowly, increasing the period.
+Gravity is weaker on the Moon, so the restoring force is smaller. This causes the pendulum to oscillate more slowly, increasing the period.
 
 ---
 
-### (b) Length for T = 1 s
+### (b) Length for $T = 1$ s
 
-Rearrange the formula:
+$$
+T = 2\pi \sqrt{\frac{L}{g}}
+$$
 
-T = 2π * sqrt(L / g)
+Solve for $L$:
 
-L = gT² / (4π²)
+$$
+L = \frac{gT^2}{4\pi^2}
+$$
 
-Substitute:
-
-L = 9.81 / (4π²)
-
-L ≈ 0.248 m
+$$
+L = \frac{9.81}{4\pi^2} \approx 0.248 \text{ m}
+$$
 
 **Explanation:**
-We isolate L to determine the required length. A shorter pendulum oscillates faster, so a specific length is needed to achieve exactly 1 second.
+We isolate $L$ to determine the required pendulum length. A shorter pendulum oscillates faster.
