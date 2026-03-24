@@ -45,3 +45,19 @@ $$
 - Velocity is the derivative of position.
 - Acceleration is the derivative of velocity.
 - Power measures energy transfer rate.
+
+---
+
+### Formula 1: Velocity
+
+$$
+v = \frac{dr}{dt}
+$$
+
+---
+
+### Formula 2: Acceleration
+
+$$
+a = \frac{dv}{dt}
+$$
