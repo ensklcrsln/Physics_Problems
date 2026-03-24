@@ -1,40 +1,47 @@
-# 10. Force Field & Power
+## 10. Force Field and Power
 
-## Problem
+### Given:
 
-x = 5t² - t  
-y = 2t³  
-z = -3t + 2  
-m = 0.5 kg  
+$$
+x = 5t^2 - t,\quad y = 2t^3,\quad z = -3t + 2
+$$
 
 ---
 
-## Solution
-
 ### Step 1: Velocity
 
-v = (10t - 1, 6t², -3)
+$$
+v = (10t - 1,\ 6t^2,\ -3)
+$$
 
 ---
 
 ### Step 2: Acceleration
 
-a = (10, 12t, 0)
+$$
+a = (10,\ 12t,\ 0)
+$$
 
 ---
 
 ### Step 3: Force
 
-F = ma
-
-F = (5, 6t, 0)
+$$
+F = ma = (5,\ 6t,\ 0)
+$$
 
 ---
 
 ### Step 4: Power
 
-P = F · v
+$$
+P = F \cdot v = 50t - 5 + 36t^3
+$$
 
-P = 5(10t - 1) + 6t(6t²)
+---
 
-P = 50t - 5 + 36t³
+### Explanation:
+
+- Velocity is the derivative of position.
+- Acceleration is the derivative of velocity.
+- Power measures energy transfer rate.
