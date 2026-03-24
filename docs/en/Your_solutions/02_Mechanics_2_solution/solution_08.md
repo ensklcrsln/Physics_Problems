@@ -1,33 +1,37 @@
-# 8. Work of a Variable Force
+# 8. Variable Force Work
 
-## 🧠 Solution
-
-The force is:
+## Problem
 
 F = -kx
 
-This means the force always pulls back toward equilibrium.
-
 ---
 
-### Motion equation
+## Solution
+
+### Step 1: Equation of motion
 
 m d²x/dt² = -kx
 
-This creates oscillation (simple harmonic motion).
+This is SHM.
 
 ---
 
-### Work
+### Step 2: Work
 
-W = ∫ -kx dx = -(1/2)kx²
+W = ∫ -kx dx
 
-👉 The negative sign shows energy is stored, not lost.
+W = -(1/2)kx²
 
 ---
 
-### Potential energy
+### Step 3: Potential energy
 
 U = (1/2)kx²
 
-👉 Energy is stored in the spring when it is stretched.
+F = -dU/dx ✔
+
+---
+
+### Interpretation
+
+Energy is stored in the system.
