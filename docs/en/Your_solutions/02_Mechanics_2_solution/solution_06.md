@@ -28,3 +28,19 @@ $$
 - Each bounce keeps only 70% of energy.
 - Height is directly proportional to energy.
 - Therefore, we multiply by 0.7 each time.
+
+---
+
+### Formula 1: Energy Retention Ratio
+
+$$
+E_{after} = \alpha E_{before}
+$$
+
+---
+
+### Formula 2: Energy–Height Proportionality
+
+$$
+h \propto E
+$$
