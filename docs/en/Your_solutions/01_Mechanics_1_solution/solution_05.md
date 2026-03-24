@@ -1,44 +1,59 @@
-## 5. Relative Velocity (Boat Problem)
+## 5. Relative Velocity
 
-Idea:
-Boat velocity and river velocity combine as vectors.
+### Given:
 
----
-
-Given:
-- river flows east at 2 m/s
-- boat speed is 5 m/s
-
-We want the boat to move straight north.
+- River velocity east = 2 meters per second  
+- Boat speed in still water = 5 meters per second  
+- River width = 200 meters  
 
 ---
 
-Why vector addition?
+### Step 1: Determine heading angle
 
-Because motion happens in two independent directions:
-- east-west direction
-- north-south direction
+To go directly north, the boat must compensate for the eastward river flow.
 
----
+$$
+\tan(\theta) = \frac{v_{river}}{v_{boat}} = \frac{2}{5}
+$$
 
-Step 1:
-
-We cancel east motion.
-
-5 sinθ = 2
-
-sinθ = 2/5
-
-θ ≈ 23.6 degrees
+$$
+\theta = \arctan\left(\frac{2}{5}\right) \approx 21.8^\circ \text{ west of north}
+$$
 
 ---
 
-Step 2:
+### Step 2: Time to cross the river
 
-North speed:
+Northward component of boat speed:
 
-v = 5 cosθ
+$$
+v_{north} = v_{boat} \cdot \cos(\theta) = 5 \cdot \cos(21.8^\circ) \approx 4.62 \text{ m/s}
+$$
 
-Time:
+Time to cross:
 
-t = 200 / (5 cosθ)
+$$
+t = \frac{\text{width}}{v_{north}} = \frac{200}{4.62} \approx 43.3 \text{ s}
+$$
+
+---
+
+### Explanation:
+
+- The boat must aim upstream to cancel river drift.  
+- Use vector decomposition to find northward speed.  
+- Divide river width by northward speed to get crossing time.  
+
+---
+
+### Formula 1: Tangent for velocity components
+
+$$
+\tan(\theta) = \frac{v_{river}}{v_{boat}}
+$$
+
+### Formula 2: Time to cross
+
+$$
+t = \frac{\text{river width}}{v_{north}}
+$$
