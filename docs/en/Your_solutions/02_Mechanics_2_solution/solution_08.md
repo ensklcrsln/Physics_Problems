@@ -1,37 +1,51 @@
-# 8. Variable Force Work
+## 8. Work of a Variable Force
 
-## Problem
+### Given:
 
-F = -kx
-
----
-
-## Solution
-
-### Step 1: Equation of motion
-
-m d²x/dt² = -kx
-
-This is SHM.
+$$
+F(x) = -kx
+$$
 
 ---
 
-### Step 2: Work
+### Step 1: Write equation of motion
 
-W = ∫ -kx dx
-
-W = -(1/2)kx²
-
----
-
-### Step 3: Potential energy
-
-U = (1/2)kx²
-
-F = -dU/dx ✔
+$$
+m\ddot{x} + kx = 0
+$$
 
 ---
 
-### Interpretation
+### Step 2: Calculate work
 
-Energy is stored in the system.
+$$
+W = \int_0^{x_0} (-kx)\,dx
+$$
+
+$$
+W = -\frac{1}{2}kx_0^2
+$$
+
+---
+
+### Step 3: Define potential energy
+
+$$
+U(x) = \frac{1}{2}kx^2
+$$
+
+---
+
+### Step 4: Verify relation
+
+$$
+F = -\frac{dU}{dx}
+$$
+
+---
+
+### Explanation:
+
+- The force always pulls toward equilibrium.
+- Work done is stored as potential energy.
+- This describes a spring system.
