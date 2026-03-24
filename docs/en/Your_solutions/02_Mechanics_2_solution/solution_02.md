@@ -1,47 +1,70 @@
 # 2. Harmonic Motion
 
-## 📊 Summary
+## Problem
 
-| Quantity | Result |
-|----------|--------|
-| k | ≈ 9869 N/m |
-| Energy | ≈ 197 J |
+x(t) = 0.2 cos(10πt), m = 10 kg
 
----
-
-## 🧠 Solution
-
-The motion is given as:
-
-x(t) = 0.2 cos(10πt)
-
-This is a simple harmonic motion where:
-
-- 0.2 is the amplitude  
-- 10π is the angular frequency  
+Find:
+- Spring constant k
+- Total energy
 
 ---
 
-### Spring constant
+## Solution
 
-We use:
+### Step 1: Identify SHM form
+
+General form:
+
+x(t) = A cos(ωt)
+
+So:
+
+A = 0.2 m  
+ω = 10π rad/s  
+
+---
+
+### Step 2: Spring constant
+
+Formula:
 
 k = mω²
 
-This works because the spring force depends on how fast the system oscillates.
+Compute:
 
-k = 10 × (10π)² ≈ 9869 N/m
+ω² = (10π)² = 100π²
 
-👉 A higher frequency means a stiffer spring.
+k = 10 × 100π² = 1000π²
+
+π² ≈ 9.87
+
+k ≈ 9869 N/m
 
 ---
 
-### Energy
+### Interpretation
+
+Higher frequency means stronger restoring force → stiffer spring.
+
+---
+
+### Step 3: Energy
+
+Formula:
 
 E = (1/2)kA²
 
-This formula shows that energy depends only on amplitude.
+Substitute:
+
+A² = 0.04
+
+E = 0.5 × 9869 × 0.04
 
 E ≈ 197 J
 
-👉 Energy stays constant during oscillation.
+---
+
+### Interpretation
+
+Energy stays constant during oscillation.
