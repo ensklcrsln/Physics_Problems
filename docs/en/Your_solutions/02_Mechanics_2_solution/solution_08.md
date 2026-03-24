@@ -49,3 +49,19 @@ $$
 - The force always pulls toward equilibrium.
 - Work done is stored as potential energy.
 - This describes a spring system.
+
+---
+
+### Formula 1: Hooke’s Law
+
+$$
+F = -kx
+$$
+
+---
+
+### Formula 2: Work Done by a Variable Force
+
+$$
+W = \int F(x)\,dx
+$$
