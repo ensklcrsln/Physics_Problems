@@ -1,78 +1,45 @@
-# 1. Gravitational Dependence
+## 1. Gravitational Dependence
 
-## Problem
-A pendulum has period 4 s on Earth. Find:
-- Period on the Moon (g = g/6)
-- Length for T = 1 s on Earth
+### (a) Period on the Moon
 
----
+The period of a simple pendulum is given by:
 
-## Solution
+T = 2π * sqrt(L / g)
 
-### Step 1: Formula
-
-The period of a simple pendulum is:
-
-T = 2π sqrt(L / g)
-
-This shows that:
-- Longer length → slower oscillation
-- Higher gravity → faster oscillation
-
----
-
-### Step 2: Moon period
-
-On Earth:
-
-T = 4 s
-
-Since:
+This shows that the period depends on gravity. Specifically:
 
 T ∝ 1 / sqrt(g)
 
+So if gravity decreases, the period increases.
+
 On the Moon:
 
-g_moon = g / 6
+g_moon = g_earth / 6
 
-So:
+T_moon = T_earth * sqrt(g_earth / g_moon)
 
-T_moon = 4 × sqrt(6)
+T_moon = 4 * sqrt(6)
 
-Calculate:
+T_moon ≈ 4 * 2.45 = 9.8 s
 
-sqrt(6) ≈ 2.45
-
-T_moon ≈ 4 × 2.45 = 9.8 s
-
----
-
-### Interpretation
-
-The pendulum swings more slowly on the Moon because gravity is weaker.
+**Explanation:**
+Gravity provides the restoring force in a pendulum. On the Moon, gravity is weaker, so the restoring force is smaller. This causes the pendulum to swing more slowly, increasing the period.
 
 ---
 
-### Step 3: Length for T = 1 s
+### (b) Length for T = 1 s
 
-Start from:
+Rearrange the formula:
 
-1 = 2π sqrt(L / g)
+T = 2π * sqrt(L / g)
 
-Square both sides:
-
-1 = 4π² (L / g)
-
-Solve for L:
-
-L = g / (4π²)
+L = gT² / (4π²)
 
 Substitute:
 
-L = 9.81 / 39.48 ≈ 0.25 m
+L = 9.81 / (4π²)
 
----
+L ≈ 0.248 m
 
-### Interpretation
-
-A shorter pendulum oscillates faster.
+**Explanation:**
+We isolate L to determine the required length. A shorter pendulum oscillates faster, so a specific length is needed to achieve exactly 1 second.
