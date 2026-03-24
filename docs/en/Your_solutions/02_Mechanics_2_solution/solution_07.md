@@ -1,31 +1,40 @@
-# 7. Dynamics with Friction
+# 7. Friction Dynamics
 
-## 📊 Result
+## Problem
 
-a ≈ 3.52 m/s²
-
----
-
-## 🧠 Solution
-
-Friction always opposes motion.
+m1 = 5 kg (fixed)  
+m2 = 10 kg (moving)  
+F = 45 N  
+μ = 0.2  
 
 ---
 
-### Friction force
+## Solution
 
-f = μmg = 0.2 × 5 × 9.81 ≈ 9.8 N
+### Step 1: Friction
+
+f = μmg
+
+f = 0.2 × 5 × 9.81 = 9.8 N
 
 ---
 
-### Net force
+### Step 2: Net force
 
 F_net = 45 - 9.8 = 35.2 N
 
 ---
 
-### Acceleration
+### Step 3: Acceleration
 
-a = F/m = 35.2 / 10 ≈ 3.52 m/s²
+a = F / m
 
-👉 Friction reduces acceleration.
+a = 35.2 / 10
+
+a = 3.52 m/s²
+
+---
+
+### Interpretation
+
+Friction reduces acceleration.
