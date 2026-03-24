@@ -1,45 +1,62 @@
-# 12. Work & Energy
+## 12. Work and Energy
 
-## Problem
+### Given:
 
-F = (6,2), m = 2 kg
+$$
+F = (6, 2), \quad m = 2
+$$
 
 ---
 
-## Solution
-
 ### Step 1: Acceleration
 
-a = F/m = (3,1)
+$$
+a = (3, 1)
+$$
 
 ---
 
 ### Step 2: Velocity
 
-v = (3t + 1, t - 1)
+$$
+v = (1 + 3t,\ -1 + t)
+$$
 
 ---
 
 ### Step 3: Position
 
-r = (1.5t² + t, 0.5t² - t)
+$$
+x = t + \frac{3}{2}t^2
+$$
+
+$$
+y = -t + \frac{1}{2}t^2
+$$
 
 ---
 
-### Step 4: Work
+### Step 4: Work at $t=3$
 
-At t = 3:
+$$
+r = (16.5, 1.5)
+$$
 
-r(3) = (16.5, 1.5)
-
-W = F · r
-
-W = 6 × 16.5 + 2 × 1.5
-
-W = 102 J
+$$
+W = 102 \text{ J}
+$$
 
 ---
 
-### Step 5: Energy check
+### Step 5: Work-Energy check
 
-Work equals change in kinetic energy ✔
+$$
+\Delta E = 102 \text{ J}
+$$
+
+---
+
+### Explanation:
+
+- Work equals change in kinetic energy.
+- This confirms the Work-Energy Theorem.
