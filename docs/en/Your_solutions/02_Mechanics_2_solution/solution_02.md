@@ -55,3 +55,24 @@ $$
 - At equilibrium, all energy is kinetic.
 - The total energy remains constant because no energy is lost.
 
+### Formula 1: Angular Frequency (Simple Harmonic Motion)
+
+$$
+\omega = \sqrt{\frac{k}{m}}
+$$
+
+---
+
+### Formula 2: Spring Constant Formula
+
+$$
+k = m\omega^2
+$$
+
+---
+
+### Formula 3: Total Mechanical Energy (SHM)
+
+$$
+E = \frac{1}{2}kA^2
+$$
