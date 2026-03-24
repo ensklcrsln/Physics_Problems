@@ -1,18 +1,25 @@
 # 6. Energy Dissipation
 
-## 📊 Result
+## Problem
 
-h ≈ 0.98 m
+h = 2 m, energy loss = 30% per bounce
 
 ---
 
-## 🧠 Solution
+## Solution
 
-Each bounce keeps 70% of energy.
+### Step 1: First bounce
 
-Since height is proportional to energy:
+h1 = 0.7 × 2 = 1.4 m
 
-h₁ = 0.7 × 2 = 1.4 m  
-h₂ = 0.7 × 1.4 = 0.98 m  
+---
 
-👉 The ball loses energy after every bounce.
+### Step 2: Second bounce
+
+h2 = 0.7 × 1.4 = 0.98 m
+
+---
+
+### Interpretation
+
+Each bounce reduces mechanical energy.
