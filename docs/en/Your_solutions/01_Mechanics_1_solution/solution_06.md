@@ -91,3 +91,12 @@ a(3) = 2 × 3 + 2 = 8
 ## 📈 Plot (optional)
 
 If you include an image in your repo:
+![Velocity vs Acceleration](velocity_acceleration_plots.png)
+
+---
+
+## 📌 Key insight
+
+- Velocity → quadratic growth  
+- Position → cubic growth  
+- Acceleration → linear growth
