@@ -60,3 +60,43 @@ $$
 
 - Work equals change in kinetic energy.
 - This confirms the Work-Energy Theorem.
+
+---
+
+### Formula 1: Newton’s Second Law
+
+$$
+a = \frac{F}{m}
+$$
+
+---
+
+### Formula 2: Kinematic Equation (Velocity)
+
+$$
+v = v_0 + at
+$$
+
+---
+
+### Formula 3: Kinematic Equation (Position)
+
+$$
+x = x_0 + v_0 t + \frac{1}{2}at^2
+$$
+
+---
+
+### Formula 4: Work Done by Constant Force
+
+$$
+W = F \cdot r
+$$
+
+---
+
+### Formula 5: Work–Energy Theorem
+
+$$
+W = \Delta E_k
+$$
