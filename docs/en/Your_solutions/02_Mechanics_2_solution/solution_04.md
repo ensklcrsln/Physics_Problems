@@ -1,35 +1,47 @@
-# 4. Energy & Momentum
+# 4. Energy & Momentum Collision
 
-## 📊 Result
+## Problem
 
-v ≈ 1.92 m/s
+m1 = 0.5 kg  
+m2 = 1.5 kg  
+h = 3 m  
 
----
-
-## 🧠 Solution
-
-This problem has two stages.
+Find final velocity after sticking collision.
 
 ---
 
-### Step 1: falling motion
+## Solution
 
-We convert height into speed:
+### Step 1: Falling speed
 
 v = sqrt(2gh)
 
-v ≈ 7.67 m/s
+v = sqrt(2 × 9.81 × 3)
 
-👉 Gravity increases speed during the fall.
+v = sqrt(58.86)
+
+v ≈ 7.67 m/s
 
 ---
 
-### Step 2: collision
+### Step 2: Momentum conservation
 
-The blocks stick together, so momentum is conserved:
+Initial momentum:
 
-0.5 × 7.67 = 2v
+p = 0.5 × 7.67 = 3.835
+
+Final mass:
+
+2.0 kg
+
+So:
+
+3.835 = 2v
 
 v ≈ 1.92 m/s
 
-👉 After collision, speed decreases due to increased mass.
+---
+
+### Interpretation
+
+Velocity decreases after collision because mass increases.
