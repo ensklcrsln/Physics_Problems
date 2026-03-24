@@ -2,27 +2,34 @@
 
 ## 📊 Result
 
-v ≈ 2.7 m/s
+v ≈ 1.92 m/s
 
 ---
 
-## 🧠 Explanation
+## 🧠 Solution
 
-This is a two-step problem:
+This problem has two stages.
 
 ---
 
-### Step 1: Energy conservation
+### Step 1: falling motion
+
+We convert height into speed:
 
 v = sqrt(2gh)
 
-➡ Potential energy converts to kinetic  
+v ≈ 7.67 m/s
+
+👉 Gravity increases speed during the fall.
 
 ---
 
-### Step 2: Momentum conservation
+### Step 2: collision
 
-Objects stick together:
+The blocks stick together, so momentum is conserved:
 
-➡ Momentum conserved  
-➡ Energy NOT conserved
+0.5 × 7.67 = 2v
+
+v ≈ 1.92 m/s
+
+👉 After collision, speed decreases due to increased mass.
