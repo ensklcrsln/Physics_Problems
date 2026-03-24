@@ -61,3 +61,27 @@ $$
 $$
 a = \frac{dv}{dt}
 $$
+
+---
+
+### Formula 3: Newton’s Second Law
+
+$$
+F = ma
+$$
+
+---
+
+### Formula 4: Linear Momentum
+
+$$
+p = mv
+$$
+
+---
+
+### Formula 5: Power
+
+$$
+P = F \cdot v
+$$
