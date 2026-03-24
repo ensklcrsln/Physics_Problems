@@ -1,26 +1,42 @@
-# 9. Drag Motion
+## 9. Vertical Motion with Drag
 
-## Problem
+### Given:
 
-m dv/dt = -mg - kv
-
----
-
-## Solution
-
-### Step 1: Forces
-
-- gravity: -mg  
-- drag: -kv  
+$$
+m\frac{dv}{dt} = -mg - kv
+$$
 
 ---
 
-### Step 2: Differential equation
+### Step 1: Solve differential equation
 
-dv/dt = -g - (k/m)v
+$$
+v(t) = \left(v_0 + \frac{mg}{k}\right)e^{-\frac{k}{m}t} - \frac{mg}{k}
+$$
 
 ---
 
-### Interpretation
+### Step 2: Find maximum height
 
-Drag reduces velocity exponentially over time.
+Set:
+
+$$
+v = 0
+$$
+
+Solve for $t$, then substitute into position.
+
+---
+
+### Step 3: Compare with no drag
+
+- Without drag → higher maximum height  
+- With drag → lower height  
+
+---
+
+### Explanation:
+
+- Drag force increases with velocity.
+- It reduces upward motion faster than gravity alone.
+- This lowers the maximum height.
