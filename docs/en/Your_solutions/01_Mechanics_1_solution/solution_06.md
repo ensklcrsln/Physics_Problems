@@ -1,102 +1,67 @@
-# 6. Variable Velocity
+## 6. Variable Velocity
 
-## 📊 Summary Table
+### Given:
 
-| Quantity        | Expression                          | Result |
-|----------------|--------------------------------------|--------|
-| Velocity       | v(t) = t<sup>2</sup> + 2t - 5        | Given |
-| Position       | ∫ v(t) dt                            | (1/3)t<sup>3</sup> + t<sup>2</sup> - 5t + C |
-| Initial value  | x(0) = 4                             | C = 4 |
-| Position t=3   | x(3)                                 | 7 |
-| Acceleration   | a(t) = dv/dt                         | 2t + 2 |
-| Acceleration t=3 | a(3)                               | 8 |
+- Velocity: $v(t) = t^2 + 2t - 5$  
+- Initial position: $x(0) = 4$  
+- Find position and acceleration at $t = 3$  
 
 ---
 
-## 🧠 Step-by-step explanation
+### Step 1: Acceleration
 
-### 1. Why integration?
+$$
+a(t) = \frac{dv}{dt} = 2t + 2
+$$
 
-Position is obtained by accumulating velocity over time.
+At $t = 3$:
 
-So we compute:
-
-x(t) = ∫ (t<sup>2</sup> + 2t - 5) dt
-
----
-
-### 2. Integration result
-
-Integrate term by term:
-
-- t<sup>2</sup> → (1/3)t<sup>3</sup>  
-- 2t → t<sup>2</sup>  
-- -5 → -5t  
-
-So:
-
-x(t) = (1/3)t<sup>3</sup> + t<sup>2</sup> - 5t + C
+$$
+a(3) = 8 \text{ m/s}^2
+$$
 
 ---
 
-### 3. Initial condition
+### Step 2: Position function
 
-Given:
+Integrate velocity:
 
-x(0) = 4
+$$
+x(t) = \int v(t) dt = \frac{t^3}{3} + t^2 - 5t + C
+$$
 
-So:
+Use initial condition $x(0) = 4$ → $C = 4$
 
-C = 4
-
-Final position function:
-
-x(t) = (1/3)t<sup>3</sup> + t<sup>2</sup> - 5t + 4
-
----
-
-### 4. Evaluate at t = 3
-
-Step-by-step:
-
-- t<sup>3</sup> = 27 → (1/3) × 27 = 9  
-- t<sup>2</sup> = 9  
-- -5t = -15  
-- +4 = 4  
-
-Total:
-
-x(3) = 9 + 9 - 15 + 4 = 7
+$$
+x(t) = \frac{t^3}{3} + t^2 - 5t + 4
+$$
 
 ---
 
-### 5. Acceleration
+### Step 3: Position at $t = 3$
 
-Acceleration is the derivative of velocity.
-
-Given:
-
-v(t) = t<sup>2</sup> + 2t - 5
-
-So:
-
-a(t) = 2t + 2
-
-At t = 3:
-
-a(3) = 2 × 3 + 2 = 8
+$$
+x(3) = 7 \text{ m}
+$$
 
 ---
 
-## 📈 Plot (optional)
+### Explanation:
 
-If you include an image in your repo:
-![Velocity vs Acceleration](velocity_acceleration_plots.png)
+- Acceleration is derivative of velocity.  
+- Position is integral of velocity plus initial condition.  
+- Plug in t = 3 for numerical results.  
 
 ---
 
-## 📌 Key insight
+### Formula 1: Acceleration from velocity
 
-- Velocity → quadratic growth  
-- Position → cubic growth  
-- Acceleration → linear growth
+$$
+a(t) = \frac{dv}{dt}
+$$
+
+### Formula 2: Position from velocity
+
+$$
+x(t) = \int v(t) dt + x_0
+$$
