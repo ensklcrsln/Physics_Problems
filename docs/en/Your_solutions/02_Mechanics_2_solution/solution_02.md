@@ -15,16 +15,28 @@ Given:
 
 x(t) = 0.2 cos(10πt)
 
-Angular frequency:
+Compare with:
 
-ω = 10π
+x = A cos(ωt)
 
-k = mω² = 10 × (10π)² ≈ 9869
+So:
+
+- Amplitude A = 0.2  
+- Angular frequency ω = 10π  
 
 ---
 
-Energy:
+### Spring constant
+
+k = mω²
+
+➡ Higher frequency → stiffer spring
+
+---
+
+### Energy
 
 E = (1/2)kA²
 
-= 0.5 × 9869 × (0.2)² ≈ 197 J
+➡ Energy is constant in SHM  
+➡ Depends only on amplitude
