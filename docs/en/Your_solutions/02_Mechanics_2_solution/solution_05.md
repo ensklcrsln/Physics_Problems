@@ -46,6 +46,8 @@ $$
 - Kinetic energy is not conserved here.
 - The missing energy is transformed into heat and deformation.
 
+---
+
 ### Formula 1: Conservation of Linear Momentum
 
 $$
