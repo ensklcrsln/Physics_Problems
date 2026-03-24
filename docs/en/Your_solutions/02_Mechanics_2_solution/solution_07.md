@@ -43,3 +43,21 @@ $$
 - Friction opposes motion.
 - Net force determines acceleration.
 - Newton’s second law is applied.
+
+---
+
+## 7. Dynamics with Friction
+
+### Formula 1: Kinetic Friction Formula
+
+$$
+f = \mu N
+$$
+
+---
+
+### Formula 2: Newton’s Second Law
+
+$$
+F_{net} = ma
+$$
