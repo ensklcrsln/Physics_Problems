@@ -1,104 +1,66 @@
-# 7. Elimination of Time and Interpretation of Acceleration
+## 7. Elimination of Time and Interpretation of Acceleration
 
-Given:
+### Given:
 
-v(t):
-
-x(t) = 2t<sup>2</sup>  
-y(t) = 3t<sup>3</sup>
+- $x(t) = 2t^2$  
+- $y(t) = 3t^3$  
 
 ---
 
-## 📊 Summary Table
+### Step 1: Eliminate time
 
-| Quantity | Expression | Result |
-|----------|------------|--------|
-| x(t) | 2t² | Given |
-| y(t) | 3t³ | Given |
-| Trajectory | eliminate t | y² = (9/8)x³ |
-| Velocity | derivative | (4t, 9t²) |
-| Speed | magnitude | sqrt(16t² + 81t⁴) |
-| Acceleration | derivative | (4, 18t) |
-| |a(t)| | sqrt(16 + 324t²) |
-| Constant? | depends on t | No |
+$$
+t = \sqrt{\frac{x}{2}} \quad \Rightarrow \quad y = \frac{3}{2\sqrt{2}} x^{3/2}
+$$
 
 ---
 
-## 🧠 Step-by-step explanation
+### Step 2: Velocity vector
 
-### 1. Eliminate the parameter t
+$$
+v_x = 4t, \quad v_y = 9t^2
+$$
 
-From:
-
-x = 2t² → t² = x / 2
-
-Now:
-
-y = 3t³
-
-Square both sides:
-
-y² = 9t⁶
-
-But:
-
-t⁶ = (t²)³ = (x/2)³
-
-So:
-
-y² = 9(x/2)³ = (9/8)x³
+$$
+|v| = \sqrt{(4t)^2 + (9t^2)^2} = t \sqrt{16 + 81 t^2}
+$$
 
 ---
 
-### 2. Velocity vector
+### Step 3: Acceleration vector
 
-Velocity is derivative of position:
+$$
+a_x = 4, \quad a_y = 18 t
+$$
 
-v(t) = (dx/dt, dy/dt)
-
-dx/dt = 4t  
-dy/dt = 9t²  
-
-So:
-
-v(t) = (4t, 9t²)
+$$
+|a| = \sqrt{16 + 324 t^2}
+$$
 
 ---
 
-### 3. Speed
+### Step 4: Interpretation
 
-|v| = sqrt((4t)² + (9t²)²)
-
-= sqrt(16t² + 81t⁴)
-
----
-
-### 4. Acceleration
-
-a(t) = derivative of velocity:
-
-a(t) = (4, 18t)
-
-Magnitude:
-
-|a| = sqrt(4² + (18t)²)
-
-= sqrt(16 + 324t²)
+- Acceleration is not constant due to y-component.  
+- Trajectory is a curve.  
+- Parametric derivatives give velocity and acceleration vectors.  
 
 ---
 
-### 5. Is acceleration constant?
+### Formula 1: Velocity vector
 
-No.
+$$
+\vec v = \frac{d\vec r}{dt} = (v_x, v_y)
+$$
 
-Because second component (18t) depends on time.
+### Formula 2: Acceleration vector
 
----
+$$
+\vec a = \frac{d\vec v}{dt} = (a_x, a_y)
+$$
 
-## 📌 Key insight
+### Formula 3: Magnitude
 
-- Motion is along a nonlinear curve  
-- Acceleration changes with time  
-- Faster growth in y-direction  
-
----
+$$
+|\vec v| = \sqrt{v_x^2 + v_y^2}, \quad |\vec a| = \sqrt{a_x^2 + a_y^2}
+$$
