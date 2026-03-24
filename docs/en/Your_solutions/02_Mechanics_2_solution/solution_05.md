@@ -45,3 +45,17 @@ $$
 - Momentum is conserved in all collisions.
 - Kinetic energy is not conserved here.
 - The missing energy is transformed into heat and deformation.
+
+### Formula 1: Conservation of Linear Momentum
+
+$$
+m_1 v_1 = (m_1 + m_2)v_f
+$$
+
+---
+
+### Formula 2: Kinetic Energy Formula
+
+$$
+E_k = \frac{1}{2}mv^2
+$$
