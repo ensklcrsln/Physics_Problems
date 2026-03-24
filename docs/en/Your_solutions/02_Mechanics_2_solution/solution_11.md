@@ -56,3 +56,29 @@ $$
 
 - Motion is built step-by-step using integration.
 - Each integration adds a constant from initial conditions.
+
+---
+
+### Formula 1: Newton’s Second Law
+
+$$
+a = \frac{F}{m}
+$$
+
+---
+
+### Formula 2: Velocity from Integration
+
+$$
+v = \int a \, dt
+$$
+
+---
+
+### Formula 3: Position from Integration
+
+$$
+x = \int v \, dt
+$$
+
+---
