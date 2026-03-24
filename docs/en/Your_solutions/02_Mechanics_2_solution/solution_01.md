@@ -9,43 +9,34 @@
 
 ---
 
-## 🧠 Explanation
+## 🧠 Step-by-step
 
-For a simple pendulum:
+### 1. Formula
 
 T = 2π sqrt(L / g)
 
-Key idea:
-
-➡ The period does NOT depend on mass  
-➡ It depends only on length and gravity  
-
 ---
 
-### Moon case
-
-On the Moon:
+### 2. Moon case
 
 g_moon = g / 6
 
-Since:
-
 T ∝ 1 / sqrt(g)
 
-We get:
+So:
 
-T_moon = 4 × sqrt(6) ≈ 9.8 s
-
-➡ The pendulum swings slower on the Moon  
+T_moon = 4 × sqrt(6) ≈ 4 × 2.45 ≈ 9.8 s
 
 ---
 
-### Length for T = 1 s
+### 3. Length for T = 1 s
 
-Rearrange:
+1 = 2π sqrt(L / g)
 
-L = g / (4π²)
+Square both sides:
 
-≈ 0.25 m
+1 = 4π² (L / g)
 
-➡ Shorter pendulum → faster oscillation
+Solve:
+
+L = g / (4π²) ≈ 9.81 / 39.48 ≈ 0.25 m
