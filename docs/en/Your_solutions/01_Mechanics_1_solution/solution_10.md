@@ -1,84 +1,53 @@
-# 10. Kinematics
+## 10. Kinematics
 
-Given:
+### Given:
 
-r(t) = (a cos(ωt), b sin(ωt), bt)
-
----
-
-## 📊 Summary Table
-
-| Quantity | Expression | Result |
-|----------|------------|--------|
-| x(t) | a cos(ωt) | Given |
-| y(t) | b sin(ωt) | Given |
-| z(t) | bt | Given |
-| Trajectory | eliminate t | ellipse + linear z |
-| Shape | 3D motion | Helix |
+$$
+\vec r(t) = (a \cos(\omega t), b \sin(\omega t), b t)
+$$
 
 ---
 
-## 🧠 Step-by-step explanation
+### Step 1: Velocity vector
 
-### a) Trajectory
-
-x = a cos(ωt)  
-y = b sin(ωt)
-
-Divide:
-
-(x/a)² + (y/b)² = 1
-
-This is an ellipse.
-
-Since:
-
-z = bt → increases linearly
-
-➡ Combined motion = helix
+$$
+v_x = - a \omega \sin(\omega t), \quad v_y = b \omega \cos(\omega t), \quad v_z = b
+$$
 
 ---
 
-### b) Path length
+### Step 2: Path length
 
-Velocity:
-
-dx/dt = -aω sin(ωt)  
-dy/dt = bω cos(ωt)  
-dz/dt = b  
-
-Speed:
-
-|v| = sqrt(a²ω² sin²(ωt) + b²ω² cos²(ωt) + b²)
-
-Path length:
-
-s = ∫ |v(t)| dt from 0 to t₀
-
-(Note: no simple closed form generally)
+$$
+s = \int_0^{t_0} \sqrt{v_x^2 + v_y^2 + v_z^2} \, dt
+$$
 
 ---
 
-### c) Plot (Python)
+### Step 3: Trajectory
 
-```python
-import numpy as np
-import matplotlib.pyplot as plt
+- Parametric in three dimensions.  
+- Special cases:  
+  - b = 0 → motion in x-y plane  
+  - a = b → circular motion  
+  - ω = 0 → linear motion in z-direction  
 
-t = np.linspace(0, 10, 1000)
+---
 
-a = 2
-b = 1
-w = 1
+### Formula 1: Velocity vector
 
-x = a * np.cos(w * t)
-y = b * np.sin(w * t)
-z = b * t
+$$
+\vec v = \frac{d \vec r}{dt}
+$$
 
-fig = plt.figure()
-ax = fig.add_subplot(projection='3d')
+### Formula 2: Speed (magnitude of velocity)
 
-ax.plot(x, y, z)
-ax.set_title("Helical Motion")
+$$
+|\vec v| = \sqrt{v_x^2 + v_y^2 + v_z^2}
+$$
 
-plt.show()
+### Formula 3: Path length
+
+$$
+s = \int |\vec v| \, dt
+$$
