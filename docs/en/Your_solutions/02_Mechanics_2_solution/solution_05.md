@@ -1,38 +1,47 @@
-# 5. Inelastic Collision
+## 5. Inelastic Collision
 
-## Problem
+### Given:
 
-m1 = 70 kg, v1 = 3 m/s  
-m2 = 140 kg, v2 = 0  
-
----
-
-## Solution
-
-### Step 1: Momentum
-
-70 × 3 = 210
-
-210 = (70 + 140)v
-
-210 = 210v
-
-v = 1 m/s
+- $m_1 = 70$ kg  
+- $m_2 = 140$ kg  
+- $v_1 = 3$ m/s  
 
 ---
 
-### Step 2: Energy check
+### Step 1: Apply momentum conservation
 
-Initial:
+$$
+m_1 v_1 = (m_1 + m_2)v_f
+$$
 
-E = (1/2)(70)(9) = 315 J
+$$
+70 \cdot 3 = 210 \cdot v_f
+$$
 
-Final:
-
-E = (1/2)(210)(1) = 105 J
+$$
+v_f = 1 \text{ m/s}
+$$
 
 ---
 
-### Interpretation
+### Step 2: Calculate initial energy
 
-Energy is not conserved because it transforms into heat and deformation.
+$$
+E_i = \frac{1}{2} \cdot 70 \cdot 3^2 = 315 \text{ J}
+$$
+
+---
+
+### Step 3: Calculate final energy
+
+$$
+E_f = \frac{1}{2} \cdot 210 \cdot 1^2 = 105 \text{ J}
+$$
+
+---
+
+### Explanation:
+
+- Momentum is conserved in all collisions.
+- Kinetic energy is not conserved here.
+- The missing energy is transformed into heat and deformation.
