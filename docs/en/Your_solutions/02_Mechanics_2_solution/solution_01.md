@@ -64,3 +64,25 @@ $$
 - The period increases with length, meaning longer pendulums swing more slowly.
 - Here, we calculate the exact length required for a 1-second oscillation.
 - This is the principle behind pendulum clocks.
+
+### Formula 1: Simple Pendulum Period Formula
+
+$$
+T = 2\pi \sqrt{\frac{L}{g}}
+$$
+
+---
+
+### Formula 2: Period–Gravity Relationship
+
+$$
+T \propto \frac{1}{\sqrt{g}}
+$$
+
+---
+
+### Formula 3: Pendulum Length Formula
+
+$$
+L = \frac{gT^2}{4\pi^2}
+$$
