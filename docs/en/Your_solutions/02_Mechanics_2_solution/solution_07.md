@@ -1,40 +1,45 @@
-# 7. Friction Dynamics
+## 7. Dynamics with Friction
 
-## Problem
+### Given:
 
-m1 = 5 kg (fixed)  
-m2 = 10 kg (moving)  
-F = 45 N  
-μ = 0.2  
+- $m = 10$ kg  
+- Applied force = 45 N  
+- $\mu = 0.2$  
 
 ---
 
-## Solution
+### Step 1: Calculate friction force
 
-### Step 1: Friction
+$$
+f = \mu N = 0.2 \cdot 49 = 9.8
+$$
 
-f = μmg
+Two friction forces:
 
-f = 0.2 × 5 × 9.81 = 9.8 N
+$$
+f_{total} = 19.6
+$$
 
 ---
 
 ### Step 2: Net force
 
-F_net = 45 - 9.8 = 35.2 N
+$$
+F_{net} = 45 - 19.6 = 25.4
+$$
 
 ---
 
 ### Step 3: Acceleration
 
-a = F / m
-
-a = 35.2 / 10
-
-a = 3.52 m/s²
+$$
+a = \frac{F}{m} = \frac{25.4}{10} = 2.54 \text{ m/s}^2
+$$
 
 ---
 
-### Interpretation
+### Explanation:
 
-Friction reduces acceleration.
+- Friction opposes motion.
+- Net force determines acceleration.
+- Newton’s second law is applied.
