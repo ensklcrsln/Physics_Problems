@@ -65,3 +65,19 @@ $$
 $$
 W = \int F(x)\,dx
 $$
+
+---
+
+### Formula 3: Elastic Potential Energy
+
+$$
+U = \frac{1}{2}kx^2
+$$
+
+---
+
+### Formula 4: Force–Potential Energy Relation
+
+$$
+F = -\frac{dU}{dx}
+$$
