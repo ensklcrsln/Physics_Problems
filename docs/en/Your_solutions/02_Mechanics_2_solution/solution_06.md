@@ -1,25 +1,30 @@
-# 6. Energy Dissipation
+## 6. Energy Dissipation
 
-## Problem
+### Given:
 
-h = 2 m, energy loss = 30% per bounce
-
----
-
-## Solution
-
-### Step 1: First bounce
-
-h1 = 0.7 × 2 = 1.4 m
+- Initial height = 2 m  
+- Energy loss per bounce = 30%  
 
 ---
 
-### Step 2: Second bounce
+### Step 1: First bounce height
 
-h2 = 0.7 × 1.4 = 0.98 m
+$$
+h_1 = 2 \cdot 0.7 = 1.4
+$$
 
 ---
 
-### Interpretation
+### Step 2: Second bounce height
 
-Each bounce reduces mechanical energy.
+$$
+h_2 = 1.4 \cdot 0.7 = 0.98 \text{ m}
+$$
+
+---
+
+### Explanation:
+
+- Each bounce keeps only 70% of energy.
+- Height is directly proportional to energy.
+- Therefore, we multiply by 0.7 each time.
