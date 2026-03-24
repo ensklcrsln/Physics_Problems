@@ -6,11 +6,11 @@ v ≈ 1.6 m/s
 
 ---
 
-## 🧠 Explanation
+## 🧠 Solution
 
-Energy is conserved:
+We use energy conservation because no energy is lost.
 
-Potential → kinetic
+Potential energy becomes kinetic energy:
 
 mgh = (1/2)mv²
 
@@ -20,11 +20,20 @@ mgh = (1/2)mv²
 
 h = L(1 - cosθ)
 
-➡ Small angle → small height  
+This measures how high the pendulum rises.
+
+cos15° ≈ 0.966
+
+h ≈ 0.034 m
+
+👉 Small angle means small height change.
 
 ---
 
-### Physical meaning
+### Final velocity
 
-- Top → velocity = 0  
-- Bottom → velocity = maximum
+v = sqrt(2gh)
+
+v ≈ 1.6 m/s
+
+👉 Speed is maximum at the bottom.
