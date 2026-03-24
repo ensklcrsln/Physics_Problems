@@ -1,47 +1,28 @@
-# 4. Energy & Momentum Collision
+## 4. Energy & Momentum
 
-## Problem
+### Velocity before collision
 
-m1 = 0.5 kg  
-m2 = 1.5 kg  
-h = 3 m  
+$$
+v = \sqrt{2gh} \approx 7.67 \text{ m/s}
+$$
 
-Find final velocity after sticking collision.
-
----
-
-## Solution
-
-### Step 1: Falling speed
-
-v = sqrt(2gh)
-
-v = sqrt(2 × 9.81 × 3)
-
-v = sqrt(58.86)
-
-v ≈ 7.67 m/s
+**Detailed Explanation:**
+- The block falls freely, converting potential energy into kinetic energy.
+- No friction means no energy loss during descent.
 
 ---
 
-### Step 2: Momentum conservation
+### After collision
 
-Initial momentum:
+$$
+m_1 v_1 = (m_1 + m_2)v_f
+$$
 
-p = 0.5 × 7.67 = 3.835
+$$
+v_f \approx 1.92 \text{ m/s}
+$$
 
-Final mass:
-
-2.0 kg
-
-So:
-
-3.835 = 2v
-
-v ≈ 1.92 m/s
-
----
-
-### Interpretation
-
-Velocity decreases after collision because mass increases.
+**Detailed Explanation:**
+- Momentum is conserved because no external horizontal forces act.
+- Since the objects stick together, kinetic energy is not conserved.
+- Some energy is lost as heat, sound, or deformation.
